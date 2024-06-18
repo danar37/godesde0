@@ -1,7 +1,17 @@
 package main
 
-import "fmt"
+import (
+	"fmt"
+
+	"github.com/danar37/godesde0/variables"
+
+
+)
 
 func main() {
-	fmt.Println("Hey que onda")
+	estado, texto := variables.ConviertoaTexto(1588)
+	fmt.Println(estado)
+	fmt.Println(texto)
+
+
 }
